@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <style type="text/css">
-		  body {
+      body {
         background:#fafafa;
       }
       #footer {
@@ -32,7 +32,7 @@
       .navbar-inner {
         opacity:0.85;
       }
-  		/* Main marketing message and sign up button */
+      /* Main marketing message and sign up button */
       .jumbotron {
         margin: 0 0;
         padding-top: 0px;
@@ -45,6 +45,15 @@
         font-size: 92px;
         line-height: 92px;
         text-shadow:1px 1px 10px rgba(255, 255, 255, 0.80);
+      }
+      #GMK {
+        color: #656565;
+        display: block;
+        font-size: 48px;
+        margin-top: -5px;
+      }
+      .jumbotron h1, #GMK {
+        text-transform: uppercase;
       }
       .jumbotron .btn {
         font-size: 21px;
@@ -91,6 +100,12 @@
         border-bottom:1px;
         padding:200px 0 100px;
       } 
+      .carousel img {
+        margin: 0 auto 12px;
+      }
+      .carousel {
+        margin-bottom: 10px;
+      }
       .jumbotron {
         padding:10px 0 100px;
       }
@@ -139,8 +154,8 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 </script>-->
-  	<article class="container">
-	  	<div class="jumbotron">
+    <article class="container">
+      <div class="jumbotron">
         <div id="myCarousel" class="carousel slide">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -157,16 +172,17 @@
           <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
           <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
         </div>
+        <h2 id="GMK">Gotlands Musikalkompani presenterar</h2>
         <h1 id="sweeney_todd" class="anchor">Sweeney Todd</h1>
         <p class="lead">En berättelse om kärlek, passion och hämnd blandat med skarp intelligens och svart humor!</p>
         <p><a href="#forestallningar" class="btn btn-success btn-large">Köp dina biljetter nu!</a></p><br>
-	  	</div>
+      </div>
       <!--<div class="fb-like-div">
         <div class="fb-like" data-href="https://www.facebook.com/gotlandsmusikalkompani" data-send="false" data-width="450" data-show-faces="false" data-font="trebuchet ms"></div>
       </div>
       <hr>-->
-  		<section id="handlingen">
-  			<h1 id="handling" class="anchor">Handling</h1>
+      <section id="handlingen">
+        <h1 id="handling" class="anchor">Handling</h1>
         <p class="text-left">Benjamin Barker, aka Sweeney Todd, en förrymd straffånge, återvänder till 1800-talets London i hopp om att kunna återta sitt gamla liv. 
         Istället finner han att allt det han hållit kärt är borta- och han beslutar sig att hämnas på ett av de mest originella sätt som skildrats på en scen. 
         Till sin hjälp har han den förslagna mrs Lovett, som har ett ett konkursfärdigt pajbageri i samma hus. Tillsammans startar de en verksamhet där 
@@ -174,7 +190,7 @@
         <p class="text-left">Föreställningen är en helafton med både romantik och skräck, satt till Somdheims fantastiska musik som spänner över både både klassisk opera och modern musikal! 
         Musikalen framförs av unga artister från Gotlands MusikalKompani i samarbete med GotlandsMusiken, Länsteatern på Gotland samt Pa-kompaniet Gotland.</p>
         <p class="text-left">Observera: Minimiålder 11 år.</p>   
-  		</section>
+      </section>
       <section id="forestallningen">
         <h1 id="forestallningar" class="anchor">Föreställningar</h1>
         <table class="table table-striped table-hover table-bordered">
@@ -262,6 +278,6 @@
       <footer id="footer">
         <p class="text-center">Gotlands Musikalkompani 2013. <br>Webbplats producerad av <a href="mailto:robin@hopjakk.se">Hopjåkk</a>.</p>
       </footer>
-  	</article>
+    </article>
   </body>
 </html>
