@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Sweeney Todd är en berättelse om kärlek, passion och hämnd blandat med skarp intelligens och svart humor! Spelas i Säveskolans Aula av Gotlands Musikalkompani under Mars/April 2013.">
+    <meta name="author" content="Gotlands Musikalkompani">
+    <meta name="creator" content="Hopjåkk">
+    <title>Gotlands Musikalkompani – Sweeney Todd</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <style type="text/css">
+      /*  
+          Robin Jakobsson
+          robin@hopjakk.se 
+          for Gotlands Musikalkompani 2013
+      */
+      body {
+        background:#fafafa;
+      }
+      #footer {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+        border-image: none;
+        border-left: 0 none;
+        border-right: 0 none;
+        border-style: solid none;
+        border-width: 1px 0;
+        color:#ccc;
+        margin: 180px 0 30px;
+        padding-top:20px;
+      }
+      .navbar-inner {
+        opacity:0.85;
+      }
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 0 0;
+        padding-top: 0px;
+        text-align: center;
+      }
+      section {
+        text-align: center;
+      }
+      .jumbotron h1, #missa-inte h1 {
+        font-size: 92px;
+        line-height: 92px;
+        text-shadow:1px 1px 10px rgba(255, 255, 255, 0.80);
+      }
+      #GMK {
+        color: #656565;
+        display: block;
+        font-size: 48px;
+        margin-top: -5px;
+      }
+      .jumbotron h1, #GMK {
+        text-transform: uppercase;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+      .jumbotron p {
+        font-size: 17px;
+      }
+      h1, h2, h3, .navbar a.brand {
+        font-family: "birch-std-1", serif;
+        font-weight:400;
+      }
+      h2 {
+       font-size: 38px;
+      }
+      .navbar a.brand {
+        font-size: 28px;
+        text-transform: uppercase;
+      }
+      .fb-like-div {
+        text-align: center;
+      }
+      .anchor:before {
+        display:block; 
+        content:""; 
+        height:50px; 
+        margin:-50px 0 0; 
+      }
+      table caption {
+        display:none;
+      }
+      section {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+        border-image: none;
+        border-left: 0 none;
+        border-right: 0 none;
+        border-style: solid none;
+        border-width: 1px 0;
+        border-top: 1px;
+        border-bottom:1px;
+        padding:200px 0 100px;
+      } 
+      .carousel img {
+        margin: 0 auto 12px;
+      }
+      .carousel {
+        margin-bottom: 10px;
+      }
+      .jumbotron {
+        padding:10px 0 100px;
+      }
+      #handlingen, #medverkanden {
+        background:url(img/splatt.jpg) no-repeat;
+        background-position: top;
+      }
+      #forestallningen, #sagt-tidigare {
+        background:url(img/splatt2.jpg) no-repeat;
+        background-position: top; 
+      }
+      #missa-inte {
+        background:url(img/blodet.jpg) no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+      }
+      .carousel-control.right {
+        right:-15px;
+      }
+      .carousel-control.left {
+        left:-15px;
+      }
+      /* Portrait tablet to landscape and desktop */
+      @media (min-width: 768px) {
+        .jumbotron {
+          /*padding-top: 40px;*/
+        }
+        .jumbotron h1 {
+          font-size: 142px;
+          line-height: 112px;
+          margin-top: 20px;
+        }
+        section p, section h1, section h2, section blockquote, section table.table {
+          width:770px;
+          margin:0 auto;
+        }
+      }
+    </style>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="40">
+    <script type="text/javascript" src="//use.typekit.net/sui2eia.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=135119646618913";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <article class="container">
+      <div class="jumbotron">
+        <div id="myCarousel" class="carousel slide">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item"><img src="img/sweeney-ansikte.jpg" alt="Sweeney Todd"></div>
+            <div class="item"><img src="img/lovett.jpg" alt="Mrs. Lovett"></div>
+            <div class="item"><img src="img/blod.jpg" alt="Sweeneys kniv"></div>
+          </div>
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+        <h2 id="GMK">Gotlands Musikalkompani presenterar</h2>
+        <h1 id="sweeney_todd" class="anchor">Sweeney Todd</h1>
+        <p class="lead">En berättelse om kärlek, passion och hämnd blandat med skarp intelligens och svart humor!</p>
+        <p><a href="#forestallningar" class="btn btn-success btn-large">Köp dina biljetter nu!</a></p><br>
+      </div>
+      <!--<div class="fb-like-div">
+        <div class="fb-like" data-href="https://www.facebook.com/gotlandsmusikalkompani" data-send="false" data-width="450" data-show-faces="false" data-font="trebuchet ms"></div>
+      </div>
+      <hr>-->
+      <section id="handlingen">
+        <h1 id="handling" class="anchor">Handling</h1>
+        <p class="text-left">Berättelsen om Sweeney Todd är berättelsen om kärlek, hat, hämnd, ensamhet- och paj!<br>
+Sweeney Todd är ett av Stephen Sondheims mest spelade verk, med musik som spänner från visa till opera!<br><br></p>
+<p class="text-left"><strong>Handlingen utspelar sig i 1800-talets London</strong><br>
+Den förrymde straffången Benjamin Barker återvänder till London under namnet Sweeney Todd.<br>
+Han hoppas få återse sin hustru och sitt barn, men istället finner han att han har förlorat allt till sin svurne fiende domare Turpin.
+Tillsammans med sin granne, den påhittiga pajbagerskan mrs Lovett, smider han en gruvlig plan.<br>
+En plan som förenar hämnd med profit på ett sätt som är ett av de mest originella som någonsin framförts på en scen!<br><br></p>
+
+<p class="text-left">Föreställningen förenar Stephen Sondheims musik med passion, allvar och en nypa svart humor- en helaftonsmusikal från 11 år och uppåt!<br><br></p>
+
+<p class="text-left">Föreställningen framförs av unga blivande musikalartister i samarbete med musiker från Gotlandsmusiken, tekniker från Länsteatern på Gotland samt PA-kompaniet.<br>
+Biljetter bokas via <a href="#forestallningar">Ticnet</a> eller på plats i Säves aula en timme före föreställningens början.<br>
+<strong>Välkomna!</strong></p>
+      </section>
+      <section id="forestallningen">
+        <h1 id="forestallningar" class="anchor">Föreställningar</h1>
+        <table class="table table-striped table-hover table-bordered">
+          <caption class="hide">Föreställningar</caption>
+          <thead>
+            <tr>
+              <th>Dag</th>
+              <th>Tid</th>
+              <th>Biljetter</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2013-03-29</td>
+              <td>19:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-musikal-biljetter/249641">Köp/Boka</a></td>
+            </tr>
+            <tr>
+              <td>2013-03-30</td>
+              <td>19:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-musikal-biljetter/249643">Köp/Boka</a></td>
+            </tr>
+            <tr>
+              <td>2013-03-31</td>
+              <td>16:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-biljetter/249645">Köp/Boka</a></td>
+            </tr>
+            <tr>
+              <td>2013-04-05</td>
+              <td>19:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-biljetter/249647">Köp/Boka</a></td>
+            </tr>
+            <tr>
+              <td>2013-04-06</td>
+              <td>19:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-biljetter/249651">Köp/Boka</a></td>
+            </tr>
+            <tr>
+              <td>2013-04-07</td>
+              <td>16:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-biljetter/249655">Köp/Boka</a></td>
+            </tr>
+            <tr>
+              <td>2013-04-11</td>
+              <td>19:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-biljetter/249659">Köp/Boka</a></td>
+            </tr>
+            <tr>
+              <td>2013-04-12</td>
+              <td>19:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-biljetter/249661">Köp/Boka</a></td>
+            </tr>
+            <tr>
+              <td>2013-04-13</td>
+              <td>13:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-biljetter/249665">Köp/Boka</a></td>
+            </tr>
+            <tr>
+              <td>2013-04-13</td>
+              <td>19:00</td>
+              <td><a href="http://www.ticnet.se/event/sweeney-todd-biljetter/249667">Köp/Boka</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="medverkanden">
+        <h1 id="medverkande" class="anchor">Medverkande</h1>
+        <br>
+        <img src="img/samarbeten.png" alt="Gotlands Musikalkompani, GotlandsMusiken, Länsteatern Gotland, Pa-kompaniet, Medborgarskolan" />
+      </section>
+      <section id="sagt-tidigare">
+        <h2 id="tidigare" class="anchor">Sagt om tidigare produktioner</h2>
+        <blockquote cite="http://www.helagotland.se/nyheter/artikel.aspx?articleid=5949861"><p>“Den totala kollisionen mellan skönhet, sexualitet, frigörelse, kärlek, förnekelse, makt och förtryck drabbar oss som sitter i publiken på ett sätt som är sällsynt inom musikalgenren.“</p><footer>– <a href="http://www.helagotland.se/nyheter/artikel.aspx?articleid=5949861">Emelie Bergbohm</a> för <abbr title="Gotlands Tidningar">GT</abbr> om <em>"Cabaret"</em>, 2010</footer></blockquote>
+        <blockquote cite="http://www.helagotland.se/noje/default.aspx?articleid=5087802"><p>“Det är bara att gratulera gotlänningarna till en amatörensemble – dessutom mycket ung – som med få undantag, med styrka och storlek kan leverera en musikal med sång- och dansinslag av rang.“</p><footer>– <a href="http://www.helagotland.se/noje/default.aspx?articleid=5087802">Gotlands Allehanda</a> om <em>"Curtains"</em>, 2009</footer></blockquote>
+        <blockquote cite="http://www.helagotland.se/noje/default.aspx?articleid=3428333"><p>“en fullständig kapitulation för det sinnliga och konstnärliga, det ungdomligt fräscha och den totala inlevelsen.“</p><footer>— <a href="http://www.helagotland.se/noje/default.aspx?articleid=3428333">Bengt Valentinsson</a> för <abbr title="Gotlands Tidningar">GT</abbr> om <em>"Den hemlighetsfulla trädgården"</em>, 2008</footer></blockquote>
+        <blockquote cite="http://www.helagotland.se/nyheter/artikel.aspx?articleid=2011346"><p>“Gå och se "Spelman på taket" och låt er imponeras - det är den sannerligen värd!“</p>– <a href="http://www.helagotland.se/nyheter/artikel.aspx?articleid=2011346">Bengt Valentinsson</a> för <abbr title="Gotlands Tidningar">GT</abbr> om <em>"Spelman på taket"</em>, 2007</blockquote>
+        <blockquote cite="http://www.helagotland.se/nyheter/artikel.aspx?articleid=1804293">
+          <p>“mycket sevärd, njutbar, imponerande och väl värd ett besök av alla som gillar dramatik eller sång eller dans eller helt enkelt musikal.“</p><footer>– <a href="http://www.helagotland.se/nyheter/artikel.aspx?articleid=1804293">Roland Olsson</a> för <abbr title="Gotlands Allehanda">GA</abbr> om <em>"The Wiz"</em>, 2006</footer>
+        </blockquote> 
+      </section>
+      <section id="missa-inte">
+        <h1 id="kontakt" class="anchor">Missa inte årets musikal!</h1>
+        <p><a href="#forestallningar" class="btn btn-success btn-large">Köp dina biljetter idag!</a></p>
+      </section>
+      <footer id="footer">
+        <p class="text-center">Gotlands Musikalkompani 2013. <br>Webbplats producerad av <a href="mailto:robin@hopjakk.se">Hopjåkk</a>.</p>
+      </footer>
+    </article>
+  </body>
+</html>
